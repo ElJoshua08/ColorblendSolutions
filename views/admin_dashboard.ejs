@@ -46,14 +46,14 @@
           <div class="subsection" id="new-users">
               <h3>New Users</h3>
               <ul>
-                  <li>User A</li>
-                  <li>User B</li>
-                  <!-- Add more new users here -->
+                  <% last10Users.forEach(username => { %>
+                    <li><%= username %></li>
+                  <% }); %>
               </ul>
           </div>
           <div class="subsection" id="total-users">
               <h3>Total Users</h3>
-              <p>10</p> <!-- Placeholder for the total number of users -->
+              <p><%= totalUsers %></p> <!-- Placeholder for the total number of users -->
           </div>
       </div>
   </section>

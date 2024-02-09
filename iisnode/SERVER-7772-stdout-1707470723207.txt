@@ -1,2 +1,0 @@
-Listening on http://localhost:\\.\pipe\92dd2a23-fff8-4d66-b193-213344ba49e2
-w8pfvKeP9U57Ks9u [ 'w8pfvKeP9U57Ks9u' ]

@@ -1,0 +1,2 @@
+Listening on http://localhost:\\.\pipe\56749510-a074-47d9-92bb-09d415fd59f6
+XFhtx5PLk9NfcVZb [ 'XFhtx5PLk9NfcVZb' ]

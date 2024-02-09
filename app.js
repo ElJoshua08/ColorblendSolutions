@@ -126,30 +126,42 @@ app.get("/login_admin_dashboard", (req, res) => {
   res.render("login_dashboard_admin");
 });
 
-function getTotalUsers() {
-  db.get(`SELECT COUNT(*) AS total_users FROM users`, function (err, row) {
+app.get("/admin_dashboard", (req, res) => {
+  // Verificar si el usuario está autenticado
+  // if (!validateToken(req.session.token)) {
+  //   res.send({
+  //     redirect: "/",
+  //     status: "fail",
+  //     message: `Not auth ${req.session.token}`,
+  //   });
+  //   return;
+  // }
+
+  db.get(`SELECT COUNT(id) AS total_users FROM users`, function (err, row) {
     if (err) {
       return console.error(err.message);
     }
 
-    return row.total_users;
+    db.all(
+      `SELECT username FROM users ORDER BY id DESC LIMIT 10`,
+      function (err, rows) {
+        if (err) {
+          console.error("Error:", err.message);
+          return callback(err, null);
+        }
+        let last10Users = rows.map((row) => row.username);
+        let totalUsers = row.total_users
+        
+        res.render("admin_dashboard", {
+          username: req.session.username,
+          totalUsers: totalUsers,
+          last10Users: last10Users,
+        });
+      }
+    );
+
+    
   });
-}
-
-app.get("/admin_dashboard", (req, res) => {
-  let total_users = getTotalUsers();
-
-  // Verificar si el usuario está autenticado
-  if (validateToken(req.session.token)) {
-    res.render("admin_dashboard", { username: req.session.username });
-  } else {
-    // Si no está autenticado, redirigir a la página de inicio de sesión
-    res.send({
-      redirect: "/",
-      status: "fail",
-      message: `Not auth ${req.session.token}`,
-    });
-  }
 });
 
 // Manejar la autenticación al recibir el formulario

@@ -11,9 +11,9 @@
   --error: #df0000;
   --succed: #ffff40;
   --placeholder-color: #4c576e;
-  --card-transparent: rgba(135, 206, 250, 0.5);
-  --card-border-transparent: rgba(30, 144, 255, 0.5);
-  --blur: 15px;
+  --card-transparent: rgba(135, 206, 250, 0.7);
+  --card-border-transparent: #7893CE;
+  --blur: 3px;
   --action-button: #FFFF00;
 }
 
@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-weight: 400;
   scroll-behavior: smooth;
 }

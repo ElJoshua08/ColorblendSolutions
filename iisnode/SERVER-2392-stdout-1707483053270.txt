@@ -1,0 +1,2 @@
+Listening on http://localhost:\\.\pipe\d8b0868e-1a90-4506-90e0-c51ce6285382
+6YonX5MLNnUd33yN [ '6YonX5MLNnUd33yN' ]

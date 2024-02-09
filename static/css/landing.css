@@ -22,18 +22,26 @@ main .home {
 }
 
 main .home h1 {
- font-size: 8rem;
- font-family: "Lovelo Bold", sans-serif;
- margin-top: 1.5rem;
- margin-left: 2.5rem;
- margin-bottom: 1rem;
- letter-spacing: 3px;
+  font-size: clamp(4rem, 7vw, 8rem);
+  font-family: "Lovelo Bold", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+}
+
+main .home .text {
+  width: 35%;
+  height: 100%;
 }
 
 main .home p {
   font-size: 2.2rem;
-  line-height: 1.4;
+  max-width: 100%;
+  line-height: 2.6rem;
+  margin-top: 7.4rem;
   margin-left: 2.5rem;
+  letter-spacing: 2px;
 }
 
 main .home .action-buttons {
@@ -63,12 +71,11 @@ main .home button {
   text-transform: uppercase;
   border: 0;
   padding: 0;
-  transition: all .3s ease;
-  
+  transition: all 0.3s ease;
 }
 
 main .home button:hover {
   background-color: #000;
   color: #fff;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
