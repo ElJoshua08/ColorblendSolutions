@@ -1,0 +1,74 @@
+@import url(./templates/variables.css);
+@import url(./templates/background.css);
+
+body {
+  display: block;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-top: 100px;
+}
+
+main .home {
+  height: 100%;
+}
+
+main .home h1 {
+ font-size: 8rem;
+ font-family: "Lovelo Bold", sans-serif;
+ margin-top: 1.5rem;
+ margin-left: 2.5rem;
+ margin-bottom: 1rem;
+ letter-spacing: 3px;
+}
+
+main .home p {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  margin-left: 2.5rem;
+}
+
+main .home .action-buttons {
+  width: 500px;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+main .home button {
+  width: 120px;
+  height: 40px;
+  min-width: min-content;
+  word-break: keep-all;
+  word-wrap: nowrap;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background-color: var(--action-button);
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border: 0;
+  padding: 0;
+  transition: all .3s ease;
+  
+}
+
+main .home button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .3s ease;
+}

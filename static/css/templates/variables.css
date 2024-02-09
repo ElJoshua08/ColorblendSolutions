@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lato:wght@300;400;700;900&display=swap');
+
+:root {
+  --baby-powder: #fffffa;
+  --accent-light: #372558;
+  --accent: #0a090cff;
+  --primary-light: #cbd8f7;
+  --primary: #9cb3e7;
+  --primary-dark: #6881bd;
+  --error: #df0000;
+  --succed: #ffff40;
+  --placeholder-color: #4c576e;
+  --card-transparent: rgba(135, 206, 250, 0.5);
+  --card-border-transparent: rgba(30, 144, 255, 0.5);
+  --blur: 15px;
+  --action-button: #FFFF00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: 'Lovelo Light';
+  src: url(../../font/Lovelo-LineLight.ttf)
+}
+
+@font-face {
+  font-family: 'Lovelo Bold';
+  src: url(../../font/Lovelo-LineBold.ttf)
+}

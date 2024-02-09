@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorBlend Solutions - Login</title>
+    <link rel="stylesheet" href="./css/login.css" />
+    <%- include("./templates/head") %>
+  </head>
+  <body>
+    <%- include("./templates/header") %>
+
+
+      <div class="loginForm" id="Login">
+        <div class="inputDiv">
+          <label for="username"> User </label>
+          <input
+            type="text"
+            class="username"
+            placeholder="Enter your user here"
+            value=""
+          />
+        </div>
+        <div class="inputDiv">
+          <label for="firstname"> First Name </label>
+          <input
+            type="text"
+            class="firstname"
+            placeholder="Enter your firstname here"
+            value=""
+          />
+        </div>
+        <div class="inputDiv">
+          <label for="lastname"> Last Name </label>
+          <input
+            type="text"
+            class="lastname"
+            placeholder="Enter your user here"
+            value=""
+          />
+        </div>
+        <div class="inputDiv">
+          <label for="password"> Password </label>
+          <input
+            type="password"
+            class="password"
+            placeholder="Enter your password here"
+            value=""
+          />
+        </div>
+
+        <button class="submitBtn" id="login">LogIn</button>
+
+        <div class="remember_me">
+          <label for="remember_me">Remember me?</label>
+          <input type="checkbox" name="" id="remember_me" checked>
+        </div>
+      </div>
+      <div class="loginForm" id="Register">
+        <div class="inputDiv">
+          <label for="username"> User </label>
+          <input
+            type="text"
+            class="username"
+            placeholder="Enter your user here"
+            value=""
+          />
+        </div>
+        <div class="inputDiv">
+          <label for="password"> Password </label>
+          <input
+            type="password"
+            class="password"
+            placeholder="Enter your password here"
+            value=""
+          />
+        </div>
+        <div class="inputDiv">
+          <label for="confirmPassword"> Password </label>
+          <input
+            type="password"
+            class="confirmPassword"
+            placeholder="Enter your password here"
+            value=""
+          />
+        </div>
+        <button class="submitBtn" id="register">Resgister</button>
+      </div>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

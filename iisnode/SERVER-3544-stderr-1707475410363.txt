@@ -1,0 +1,58 @@
+(node:3544) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error de autenticación: LDAPError [InvalidCredentialsError]: Invalid Credentials
+    at messageCallback (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:1267:45)
+    at Parser.onMessage (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:925:14)
+    at Parser.emit (node:events:518:28)
+    at Parser.write (C:\nodeApp\node_modules\ldapjs\lib\messages\parser.js:135:8)
+    at Socket.onData (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:875:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  lde_message: 'Invalid Credentials',
+  lde_dn: null
+}
+Error de autenticación: LDAPError [InvalidCredentialsError]: Invalid Credentials
+    at messageCallback (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:1267:45)
+    at Parser.onMessage (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:925:14)
+    at Parser.emit (node:events:518:28)
+    at Parser.write (C:\nodeApp\node_modules\ldapjs\lib\messages\parser.js:135:8)
+    at Socket.onData (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:875:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  lde_message: 'Invalid Credentials',
+  lde_dn: null
+}
+Error de autenticación: LDAPError [InvalidCredentialsError]: Invalid Credentials
+    at messageCallback (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:1267:45)
+    at Parser.onMessage (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:925:14)
+    at Parser.emit (node:events:518:28)
+    at Parser.write (C:\nodeApp\node_modules\ldapjs\lib\messages\parser.js:135:8)
+    at Socket.onData (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:875:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  lde_message: 'Invalid Credentials',
+  lde_dn: null
+}
+Error de autenticación: LDAPError [InvalidCredentialsError]: Invalid Credentials
+    at messageCallback (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:1267:45)
+    at Parser.onMessage (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:925:14)
+    at Parser.emit (node:events:518:28)
+    at Parser.write (C:\nodeApp\node_modules\ldapjs\lib\messages\parser.js:135:8)
+    at Socket.onData (C:\nodeApp\node_modules\ldapjs\lib\client\client.js:875:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+  lde_message: 'Invalid Credentials',
+  lde_dn: null
+}

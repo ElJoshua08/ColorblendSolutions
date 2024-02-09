@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./css/admin_dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome <span><%= username %></span> ColorBlend Solutions Admin Dashboard</h1>
+    <nav>
+        <ul>
+            <li><a href="#products">Manage Products</a></li>
+            <li><a href="#sales">View Sales Data</a></li>
+            <li><a href="#orders">Manage Orders</a></li>
+            <li><a href="#inventory">Track Inventory</a></li>
+            <li><a href="#reports">View Reports</a></li>
+            <li><a href="#users">Manage Users</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+    <section id="products">
+        <h2>Manage Products</h2>
+        <!-- Add forms or tables to manage products -->
+    </section>
+    <section id="sales">
+        <h2>View Sales Data</h2>
+        <!-- Add charts or tables to display sales data -->
+    </section>
+    <section id="orders">
+        <h2>Manage Orders</h2>
+        <!-- Add forms or tables to manage orders -->
+    </section>
+    <section id="inventory">
+        <h2>Track Inventory</h2>
+        <!-- Add tables or lists to track inventory -->
+    </section>
+    <section id="reports">
+        <h2>View Reports</h2>
+        <!-- Add charts or tables to view reports -->
+    </section>
+    <section id="users">
+      <h2>Users Management</h2>
+      <div class="subsection-container">
+          <div class="subsection" id="new-users">
+              <h3>New Users</h3>
+              <ul>
+                  <li>User A</li>
+                  <li>User B</li>
+                  <!-- Add more new users here -->
+              </ul>
+          </div>
+          <div class="subsection" id="total-users">
+              <h3>Total Users</h3>
+              <p>10</p> <!-- Placeholder for the total number of users -->
+          </div>
+      </div>
+  </section>
+  </section>
+    <!-- Add more sections for additional functionalities -->
+</div>
+  <script src="./js/admin_dashboard.js"></script>
+</body>
+</html>

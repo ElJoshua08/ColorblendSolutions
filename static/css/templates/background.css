@@ -1,0 +1,15 @@
+@import url('./variables.css');
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw; /* Ensure full viewport width */
+  height: 100vh; /* Ensure full viewport height */
+  overflow: hidden;
+  background-image: url('../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif; /* Apply default font family */
+}
